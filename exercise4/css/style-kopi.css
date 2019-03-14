@@ -1,0 +1,147 @@
+
+body {background-color: white;}
+
+
+/* header _______________________________________*/
+
+
+
+.burger {width: 30px;
+height: 5px;
+background-color: black;
+margin: 6px 0;}
+
+#navigation-icon {display: inline-block;
+float: right;
+padding-right: 2%;}
+
+#navigationdesktop {display: none;}
+
+#navigation-mobile {text-align: center;
+    font-size: 1.2em; 
+}
+
+#navihation-mobile li{padding: 0.8em; 
+border-bottom: 1px solid #ccc;}
+
+/* informationsbanner__________________________________*/
+
+#information {
+    margin: auto;
+width: 96%;
+}
+
+.center {display: block; 
+margin-left: auto;
+margin-right: auto;
+width: 50%; }
+
+/* main ____________________________________________________*/ 
+
+h1 {font-size: 1.8em;
+font-weight: bold;
+padding: 2%;}
+
+h2 {font-style: italic;
+padding: 2%;}
+
+img {width: 100%; margin: 0 auto;}
+
+#artikel1 { background-color: grey; 
+padding: 2%; }
+    
+#artikel2 {background-color: aqua;
+    padding: 2%;}
+
+#artikel3{background-color: rebeccapurple;
+padding: 2%;} 
+
+.billedetekst {font-weight: bold;}
+
+footer {background-color: orange;
+clear: both;
+padding: 2%;}
+
+article{overflow: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+/* breakpoint 320px */
+
+@media only screen and (min-width: 320px){ 
+    
+    nav {background-color: green;}
+       
+}
+
+
+/* breakpoint 480px */
+
+@media only screen and (min-width: 480px){ 
+    
+    nav {background-color: blue;}
+    
+   
+    .billedetekst { width: 60%;
+    float: left;
+    margin: 2%;}
+    
+     #artikel1 {
+    width: 46%;
+        padding-right: 2%;
+         padding-bottom: 3%;
+    }
+    
+    #artikel2 {
+    width: 46%;
+    padding-left: 2%; }
+    
+    #artikel3{width: 46%;
+    padding-left: 2%;}
+
+    #skolestrejke{float: left; 
+    width: 60%;
+    padding-right: 2%;
+    padding-bottom: 3%}
+ 
+    #navigation-mobile, #navigation-icon,.burger {display:none;}
+    
+    #navigationdesktop {display: block;
+        background-color: red;
+text-align: right;
+padding: 20px;}
+
+#navigationdesktop li {display: inline; 
+padding-right: 14px;}
+
+#navigationdesktop ul {padding: 10px;
+font-size: 18px;
+font-weight: 600;}
+    
+    
+    #information {max-width: 480px;}
+}
+
+
+
+
+/* breakpoint 768px */
+
+@media only screen and (min-width: 768px){ 
+    
+    #navigationdesktop {background-color: yellow;}
+      
+    
+    
+}
+
+
+/* breakpoint 1024 px */ 
+
+@media only screen and (min-width: 1024px){ 
+    
+    #navigationdesktop {background-color: brown;}
+      
+    
+}
